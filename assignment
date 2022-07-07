@@ -1,0 +1,31 @@
+ASSIGNMENT 1 
+askdfjlasjflkjaf
+a;lsjdf;ljaslkf
+
+service/kubia2 created
+[root@ip-172-31-28-5 05-services]# iptables-save > 1service-iptable.txt
+[root@ip-172-31-28-5 05-services]# vim -d 3pod-iptable.txt 1service-iptable.txt
+2 files to edit
+[root@ip-172-31-28-5 05-services]# clear
+
+[root@ip-172-31-28-5 05-services]# client_loop: send disconnect: Broken pipe
+Kalyanaramans-MacBook-Pro:downloads kalyan$ 
+
+
+*************
+
+ASSIGNMENT 2
+as;dkfj;dasljlad
+l;adslfkjdkf
+STATUS              RESTARTS   AGE
+kubia-dsftm   1/1     Running             0          5s
+kubia-qlm2r   1/1     Running             0          5s
+kubia-r6kl7   0/1     ContainerCreating   0          5s
+[root@ip-172-31-28-5 05-services]# kubectl get po
+NAME          READY   STATUS    RESTARTS   AGE
+kubia-dsftm   1/1     Running   0          10s
+kubia-qlm2r   1/1     Running   0          10s
+kubia-r6kl7   1/1     Running   0          10s
+[root@ip-172-31-28-5 05-services]# iptables-save > 3pod-iptable.txt
+[root@ip-172-31-28-5 05-services]# vim -d nopod-iptable.txt 3pod-iptable.txt
+2 files to edit
